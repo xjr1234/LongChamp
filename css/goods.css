@@ -1,0 +1,225 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+	background: #efefef;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+.before{
+	width:1220px;
+	height:80px;
+	margin:0 auto;
+	margin-top: 150px;
+}
+.before img{
+	width:12px;
+	height:12px;
+	margin-top:20px;
+}
+.before a{
+	font-size:12px;
+	vertical-align: middle;
+}
+.before a:hover{
+	border-bottom: 1px solid black;
+}
+section{
+	width:1220px;
+	margin:0 auto;
+	margin-bottom:130px;
+	display: flex;
+}
+.gdpg{
+	display: flex; 
+	width:860px;
+	background: white;
+}
+.smallgdpg{
+	margin-top:170px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+.smallgdpg img{
+	width:126px;
+	height:124px;
+	margin-bottom: 50px;
+}
+.smallgdpg img:hover{
+	cursor:pointer;
+}
+.smallgdpg span{
+	opacity: 0.5;
+}
+.smallgdpg span:hover{
+	opacity: 1;
+	background: white;
+}
+.biggdpg{
+	margin-top: 110px;
+	display: flex;
+	flex-direction: column;
+}
+.biggdpg img{
+	width:480px;
+	height:480px;
+	margin-left: 40px;
+
+}
+.biggdpg img:nth-child(2){
+	display: none;
+}
+.biggdpg p{
+	width:500px;
+	margin-left: 40px;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 90px;
+}
+.share{
+	margin-left:210px;
+	margin-bottom:50px;
+}
+.share img{
+	width:27px;
+	height:19px;
+}
+.share a{
+	font-size: 14px;
+	color:#61532e;
+}
+.share a:hover{
+	border-bottom: 1px solid black;
+}
+.gdlist{
+	margin-left:30px;
+}
+.gdlist p:nth-child(1){
+	font-size: 34px;
+}
+.gdlist p:nth-child(2){
+	font-size:16px;
+	color:#8c8b89;
+	margin-top: 10px;
+}
+.gdlist p:nth-child(3){
+	font-size:12px;
+	margin-top: 15px;
+	margin-bottom:10px;
+}
+.size{
+	position: relative;
+	width:295px;
+	height:38px;
+	border:1px solid #ceccc8;
+	line-height:38px;
+	margin-top: 20px;
+}
+.size:hover{
+	color:white;
+	background:black;
+}
+.size img{
+	float: right;
+	margin-top:12px;
+	margin-right:8px;
+}
+.num{
+	width:200px;
+	height:35px;
+	margin-top: 20px;
+	text-align:center;
+	font-size: 18px;
+	background: #efefef;
+	margin-bottom: 20px;
+	border:none;
+	border:1px solid #949493;
+}
+.gdlist ul{
+	background: white;
+	position: absolute;
+	z-index: 1;
+	width:295px;
+	height:130px;
+	border:1px solid #ceccc8;
+	border-top: none;
+	display: none;
+}
+.gdlist ul li{
+	float: left;
+	margin-left:30px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.gdlist ul  li:last-child{
+	margin-left:-25px;
+	margin-top:70px;
+	font-size: 12px;
+	border-bottom:1px solid black;
+}
+.lastp{
+	margin-top:15px;
+	width:295px;
+	font-size: 14px;
+}
+.product{
+	position: relative;
+	width:295px;
+	height:60px;
+	line-height: 60px;
+	border-bottom:1px solid #ceccc8;
+}
+.product img{
+	float: right;
+	margin-top:25px; 
+}
+.product img:nth-child(2){
+	position:absolute;
+	right:0;
+	top:0px;
+	display: none;
+}
+.detail{
+	margin-top:20px;
+	display: none;
+}
+.detail h5{
+	font-size:12px;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.detail h5:nth-child(1){
+	font-size:16px;
+}
+.detail h5:nth-child(4){
+	font-size:16px;
+}
+.btn button {
+	margin-top: 20px;
+	display: block;
+	width:200px;
+	height:40px;
+	background: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+.btn a{
+	margin-top: 20px;
+	display: block;
+	width:200px;
+	height:40px;
+	background: white;
+	text-align: center;
+	line-height: 40px;
+}
+.btn button:first-child{
+	background:black;
+	color: white;
+}

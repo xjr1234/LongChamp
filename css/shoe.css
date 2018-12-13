@@ -1,0 +1,188 @@
+ody,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+	background: #efefef;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+.content{
+	margin-top:154px;
+	border-top: 1px solid #efefef;
+	width:100%;
+	background-color: white;
+	overflow: hidden;
+}
+.con{
+	width:1220px;
+	margin:auto;
+	height:50px;
+
+}
+.con h3{
+	line-height: 50px;
+	float: left;
+}
+.chose{
+	line-height: 50px;
+	position: relative;
+	float: right;
+}
+.chose ul{
+	float: right;
+}
+.chose li:first-child{
+	color:black;
+}
+.chose li{
+	margin-right:15px;
+	font-size:14px;
+	color:#b0adad;
+	float: left;
+}
+.chose li:hover img{
+	transform:rotate(180deg);
+	transition:transform 0.5s;
+}
+.liBox{
+	background: white;
+	position: absolute;
+	right:0;
+	top:210px;
+	display: none;
+	border: 1px solid #a09d9d;
+}
+.liBox ul{
+	width:900px;
+	display: flex;
+}
+.liBox li{
+	font-size: 14px;
+	width:210px;
+	margin-right:20px;
+	margin-top: 20px;
+
+}
+section{
+	width:100%;
+}
+.lisBox{
+	width:1220px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.goodstitle{
+	width: 1110px;
+	height: 70px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.goodstitle a{
+	padding:0 10px;
+	height:35px;
+	border:1px solid #a09d9d;
+	text-align: center;
+	line-height: 35px;
+	font-size:14px;
+}
+.goodstitle a:hover{
+	background: black;
+	color: white;
+}
+.goodstitle h4{
+	font-size: 18px;
+}
+.goodsBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:609.5px;
+	height:350px;
+	background: white;
+}
+.goodsBox:hover{
+	background: #d8d7d7;
+}
+.goodsBox img{
+	margin:0 auto;
+	width:180px;
+	height:180px;
+}
+.goodsBox span{
+	text-align: center;
+	font-size: 14px;
+	margin-top:10px;
+}
+.lastspan{
+	margin:0 auto;
+	width:12px;
+	height:12px;
+	border:1px solid #efefef;
+}
+.g1{
+	width:297px;
+	height:310px;
+}
+.bb img{
+	width:610px;
+	height:590px;
+	margin-bottom:25px;
+}
+.bb{
+	background: white;
+}
+
+.rightg{
+	width:610px;
+}
+.gdBox{
+	float: left;
+	width:303px;
+	height:310px;
+	border-right: 1px solid #efefef; 
+	border-bottom:1px solid #efefef;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: white;
+}
+.gdBox:hover{
+	background: #d8d7d7;
+}
+.gdBox span{
+	margin-top:20px;
+	font-size: 14px;
+}
+ .gdBox .mo{
+	margin-top:10px;
+}
+.gdBox img{
+	display: block;
+	width:160px;
+	width:160px;
+}
+.spanbx{
+	display: flex;
+	flex-direction:row;
+	width:100px;
+	margin:0 auto;
+	justify-content: space-between;
+}
+.im1{
+	width:610px;
+	height:310px;
+	border-right: 1px solid #efefef; 
+	border-bottom:1px solid #efefef;
+}
+

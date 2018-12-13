@@ -1,0 +1,159 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+li{
+	list-style: none;
+}
+section{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	margin-top: 154px;
+
+}
+.imgs{
+	width:1220px;
+	background: white;
+	margin:0 auto;
+}
+.imgs .ims{
+	background-image: url(../img/cover-page-femme-desktop_5_1.jpg);
+	background-size:cover;
+	height:500px;
+	width:1220px;
+	margin-bottom: 48px;
+}
+.ims h1{
+	text-shadow: 6px 6px 10px #7b7575;
+	padding-top: 58px;
+	text-align: center;
+	line-height:40px;
+	color:white;
+	font-size: 42px;
+	font-weight: 100;
+}
+.ims h4{
+	text-shadow: 6px 6px 10px #7b7575;
+	line-height:40px;
+	text-align: center;
+	color:white;
+	font-size:24px;
+	font-weight: 100;
+}
+.imgs p{
+	width:500px;
+	margin:0 auto;
+	font-size: 14px;
+	color:black;
+	line-height:20px;
+	text-align: center;
+	padding-bottom:48px;
+	margin-bottom:28px;
+}
+.goods{
+	width:1220px;
+	margin:0 auto;
+}
+.smallGoods{
+	float:left;
+	width:638px;
+	background: white;
+	padding-bottom: 30px;
+	margin-bottom:28px;
+}
+.smallGoods h2{
+	text-align: center;
+	font-size:34px;
+	font-weight: 100;
+	padding-top:35px; 
+
+}
+.smallGoods p{
+	text-align: center;
+	font-size:14px;
+	
+}
+.smallGoods img{
+	display: block;
+	width:250px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.smallGoods a{
+	font-size: 12px;
+	display: block;
+	width:90px;
+	height:34px;
+	line-height: 34px;
+	margin:0 auto;
+	text-align: center;
+	border:1px solid #cacaca;
+	margin-top: 30px;
+}
+.smallGoods a:hover{
+	background: black;
+	color:white;
+}
+.bigGoods{
+	margin-top:20px;
+	float:right;
+}
+.bigGoods img{
+	width:580px;
+	height:422px;
+	display: block;
+	 
+}
+.all{
+	clear:both;
+}
+.two{
+	float:left;
+}
+.one{
+	float:right;
+}
+.skin{
+	width:1220px;
+	margin:0 auto;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+.unique{
+	background: white;
+	display: block;
+	width:380px;
+	overflow: hidden;
+	margin-right:40px;
+	float: left;
+	margin-bottom: 20px;
+}
+.unique:nth-child(3n){
+	margin-right:0;
+}
+.unique img{
+	width:380px;
+}
+.unique span{
+	display: block;
+	width:290px;
+	height:30px;
+	border:1px solid #cacaca;
+	text-align: center;
+	line-height: 30px;
+	margin:20px auto;
+	font-size: 12px;
+}
+.unique:hover span{
+	background: black;
+	color:white;
+}
+

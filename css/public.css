@@ -1,0 +1,303 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+	background: #efefef;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+header{
+	height:39px;
+	display: flex;
+	background:black;
+}
+li{
+	list-style: none;
+}
+.smallBox{
+	height:154px;
+	width:100%;
+	position: fixed;
+	left:0;
+	top:0;
+	z-index:2;
+}
+/*head*/
+.bigHead{
+	justify-content: space-between;
+	display: flex;
+	width:1220px;
+	height:39px;
+	background:black;
+	margin:0 auto;
+	position: relative;
+}
+.head{
+	flex:1;
+	/*float: left;*/
+	line-height: 39px;
+}
+.head span{
+	font-size: 12px;
+	color:white;
+	margin-left:10px;
+}
+.head img{
+	margin-bottom:-4px;
+}
+.tu a{
+	flex:1;
+}
+.sou{
+	/*float:right;*/
+	flex:1;
+}
+.sou span{
+	margin-right:10px;
+}
+.iconfont{
+	color:white;
+	/*float: right;*/
+	line-height:40px;
+	font-size:16px;
+	margin-left:20px;
+}
+.box{
+	width:360px;
+	height:85px;
+	border:1px solid #d7d7d7;
+	position: absolute;
+	right:0px;
+	top:50px;
+	line-height: 85px;
+	display: none;
+	z-index: 1;
+	background:white;
+}
+.box img{
+	position:absolute;
+	right:30px;
+	top:-12px;
+}
+.box input{
+	width:255px;
+	height:34px;
+	border:1px solid #cacaca;
+
+	
+}
+.box input:first-of-type{
+	margin-left: 15px;
+	font-size:14px; 
+	color:#051524;
+}
+.box input:last-of-type{
+	width:68px;
+	height:34px;
+	background:#767676;
+	color:#fffdff;
+	font-size:14px; 
+	text-align: center;
+	cursor: pointer;
+}
+.box input:last-of-type:hover{
+	background:#fffdff;
+	color:#767676;
+}
+.sou:hover .box{
+	display:block;
+}
+/*nav	*/
+nav{
+	background: white;
+	position:relative;
+	width:100%;
+}
+.navbox{
+	display: flex;
+	flex-direction: column;
+	width:1220px;
+	margin:0 auto;
+	text-align: center;
+}
+.navbox img{
+	margin:16px 0;
+}
+.navbox ul{
+	flex:1;
+	display: flex;
+	overflow:hidden;
+	width:650px;
+	margin:0 auto;
+	
+}
+/*.navbox ul span{
+	position:absolute;
+	left:7px;
+	bottom:-12px;
+	width:0;
+	height:0;
+	border:6px solid transparent;
+	border-bottom-color:black; 
+	
+}*/
+.navbox li:last-of-type{
+	margin-right:0px;
+}
+.navbox li{
+	
+	position: relative;
+	margin-right:100px;
+	/*float:left;*/
+	font-size: 14px;
+	margin-bottom:18px;
+}
+.navlist{
+	display: flex;
+	background:white;
+	position:absolute;
+	left: 0;
+	top:113px;
+	width:100%;
+	border-top:1px solid #efefef;
+	display: none;
+	z-index:10;
+}
+.menu ul li a{
+	font-size:14px;
+}
+.menu ul{
+	flex:1;
+	margin-top: 40px;
+	line-height:30px;
+	margin-bottom:40px;
+	/*float:left;*/
+	margin-right:40px;
+}
+.menu ul:last-of-type{
+	margin-right:0px;
+}
+.menu li:hover{
+	border-bottom:1px solid black;
+}
+.menu{
+	display: flex;
+	overflow:hidden;
+	width:750px;
+	margin:0 auto;
+}
+.menu ul li:nth-child(2) a{
+	color:#767676;
+}
+.list2 img{
+	margin-left:60px;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+.list3 img{
+	margin-bottom:40px;
+	margin-left:60px;
+}
+.list4 img{
+	margin-bottom:40px;
+	margin-left:60px;
+	margin-top:40px;
+}
+.bigFoot{
+	width:1220px;
+	margin:0 auto;
+	padding-bottom:40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #dbdbdb;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.teack{
+	/*float:left;*/
+	flex:1;
+}
+.teack span{
+	font-size:16px;
+	margin-right: 50px;
+}
+.teack a .iconfont{
+	font-size: 28px;
+	color:#5d5d5d;
+}
+.teack a .iconfont:hover{
+	color:#acacac;
+}
+.read{
+	/*float:right;*/
+	flex:1;
+}
+.read span{
+	font-size:16px;
+	margin-right:30px;
+}
+.read input{
+	width:300px;
+	height:40px;
+	border:1px solid #cacaca;
+	font-size:14px; 
+	
+}
+.read input:first-of-type{
+	margin-left: 15px;
+	color:#051524;
+	background-image:url(../img/4.jpg) ;
+	background-repeat: no-repeat;
+	background-position: 6px 14px;
+
+}
+.read input:last-of-type{
+	width:92px;
+	height:40px;
+	background:#767676;
+	color:#fffdff;
+	text-align: center;
+	cursor: pointer;
+}
+.read input:last-of-type:hover{
+	background:#fffdff;
+	color:#767676;
+}
+.teack select{
+	width:300px;
+	height:40px;
+}
+.read ul{
+	float: left;
+	margin-right:100px;
+	font-size: 14px;
+}
+.read ul:first-of-type{
+	margin-right:32px;
+}
+.read ul:nth-of-type(2){
+	margin-right:130px;
+}
+.read ul a{
+	line-height: 26px;
+}
+footer .bigFoot:nth-child(2){
+	padding-bottom: 20px;
+}
+.read li a:hover{
+	border-bottom:1px solid black;
+}
+.lastFoot{
+	width:1220px;
+	margin:0 auto;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+.lastFoot a:hover{
+	border-bottom:1px solid black;
+}
